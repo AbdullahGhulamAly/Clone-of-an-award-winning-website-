@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #252525;
+}
+
+#circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 80%;
+  z-index: 999;
+  position: absolute;
+  background-color: white;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+}
+
+#main {
+  width: 100%;
+  color: #fff;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  background-color: #252525;
+  position: relative;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+}
+
+.bounding,
+.boundingelem {
+  transform: translateY(120%);
+}
+
+#heading {
+  margin-top: 80px;
+  opacity: 0.5;
+}
+
+#heading h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.blocktext {
+  width: fit-content;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+#Toronto {
+  padding-top: 52px;
+}
+
+#heading #second-heading {
+  margin-left: 230px;
+}
+
+#smallheading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 100px;
+  text-align: right;
+  margin-right: 40px;
+  opacity: 0.5;
+  line-height: 2;
+}
+
+#herofooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 3%;
+  padding: 0 2vw;
+  width: 100%;
+}
+
+#herofooter a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#herofooter #iconset {
+  display: flex;
+}
+
+#herofooter #circle {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #888;
+}
+
+#second {
+  width: 100%;
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.elem {
+  border-top: 1px solid #aba3ce;
+  width: 86%;
+  padding: 4vw 1vw;
+  position: relative;
+}
+
+.elem h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.elem h5 {
+  text-align: right;
+}
+
+.elemlast {
+  border-bottom: 1px solid #aba3ce;
+}
+
+.elem img {
+  position: absolute;
+  z-index: 999;
+  height: 130%;
+  opacity: 0;
+}
+
+#about {
+  width: 100%;
+  padding: 10vw 5vw;
+  background-color: #252525;
+  display: flex;
+  justify-content: right;
+  gap: 45px;
+  align-items: center;
+  line-height: 1.55;
+}
+
+#about img {
+  width: 12vw;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+#abouttext {
+  font-size: 1.1rem;
+  width: 30%;
+}
+
+#abouttext button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 60px;
+  font-size: 18px;
+  border: 1px solid #fff;
+}
+
+#subscribe {
+  padding: 30px 30px;
+}
+
+#subscribe h5 {
+  text-transform: uppercase;
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+#subscribe a {
+    color:#fff ;
+  font-size: 12px;
+  margin-top: 15px;
+  text-decoration: none;
+
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#footer {
+  /* Your existing styles for the footer */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#footer_left {
+  /* Your existing styles for the left side of the footer */
+  display: flex;
+  align-items: center; /* Center align items vertically */
+  gap: 20px;
+  /* padding-right: 30px; */
+}
+
+#current-year {
+  display: flex;
+  justify-content: center;
+  margin-left: 32px;
+}
+
+#footer_right {
+  /* Your existing styles for the right side of the footer */
+  text-transform: uppercase;
+  justify-content: flex-end; /* Align items to the end of the container */
+  display: flex;
+  gap: 20px;
+}
+
+#current-time {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 20px; /* Adjust the margin based on your layout */
+  display: flex;
+  justify-content: center;
+}
+
+#footer_right a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 17px;
+}
